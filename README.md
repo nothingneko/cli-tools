@@ -17,3 +17,7 @@ sudo mv </path/to/script_filename> /usr/local/bin/ && chmod -x /usr/local/bin/<s
 - [ ] Once more scripts get added, a CLI tool that includes all the scripts and corresponding `-h` flags should be created and packaged.
 - [ ] Add documentation for how/when/why to use each script.
 - [ ] Add guide for contributing new scripts.
+
+### Attribution
+- `ldd-dnf`, `rpmdate`: june@fyralabs.com
+- `format-license`: jonah@fyralabs.com
