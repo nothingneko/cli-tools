@@ -20,4 +20,4 @@ sudo mv </path/to/script_filename> /usr/local/bin/ && chmod -x /usr/local/bin/<s
 
 ### Attribution
 - `ldd-dnf`, `rpmdate`: june@fyralabs.com
-- `format-license`: jonah@fyralabs.com
+- `format-license`, `getcommit`: jonah@fyralabs.com
