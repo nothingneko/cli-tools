@@ -1,5 +1,5 @@
 # cli-tools
-Helpful scripts for contributing to Terra
+A collection of helpful scripts for contributing to Terra!
 
 ### Installing Scripts
 1. Download the scripts you want from `/scripts`.
