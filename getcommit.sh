@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+# Attribution:
+# jonah@fyralabs.com
+
+# -h flag
+if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+    echo "Fetches the latest commit hash and date for a given git repository. Useful for nightly packages."
+    echo "Usage: getcommit <git repo url>"
+    exit 0
+fi
+
 if [[ -z "$1" ]]; then
     echo "Usage: getcommit <git repo url>"
     exit 1

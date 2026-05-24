@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
 
-# Attribution: jonah@fyralabs.com
+# Attribution:
+# jonah@fyralabs.com
 # Input handling help from owen@fyralabs.com
+
+# -h flag
+if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+    echo "Formats the build output of %cargo_license_summary_online and %tauri_summary_license_online into a human-readable license expression."
+    echo -e "Usage: format-license \"<raw license build output>\""
+    exit 0
+fi
 
 # Input handling
 if [ -n "$1" ]; then
