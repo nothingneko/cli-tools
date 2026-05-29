@@ -15,7 +15,7 @@ just run panda and pass arguments like you would to normal anda.
 Options:
   -b, --branch <branch>   Builder image branch to use (default: frawhide)
                           Examples: frawhide, f44, f43
-  -h, --help              Show this help message
+  -h             Show this help message
 
 Examples:
   panda build -c terra-rawhide-x86_64 anda/system/vicinae/pkg (runs in the Rawhide container with the Rawhide mock config)
@@ -23,6 +23,7 @@ Examples:
 
 Notes:
   you can mix and match mock configs and container versions, but we suggest using the Rawhide container unless you run into trouble.
+  --help passes through to anda directly, use -h to see this
   god bless the container cirucs
   
 built with love in minneapolis (by catgirls! :3)
@@ -38,7 +39,7 @@ if [[ $# -eq 0 ]]; then
 fi
 
 case "${1:-}" in
-  -h|--help)
+  -h)
     usage
     exit 0
     ;;
