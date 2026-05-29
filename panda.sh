@@ -15,7 +15,7 @@ just run panda and pass arguments like you would to normal anda.
 Options:
   -b, --branch <branch>   Builder image branch to use (default: frawhide)
                           Examples: frawhide, f44, f43
-  -h             Show this help message
+  -h                      Show this help message
 
 Examples:
   panda build -c terra-rawhide-x86_64 anda/system/vicinae/pkg (runs in the Rawhide container with the Rawhide mock config)
